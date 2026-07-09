@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.5);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+button {
+  background-color: #E76F51;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.why-spanish {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F4F1EA;
+}
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+.benefit {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 180px;
+}
+.quote {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #2A9D8F;
+}
+.main-content {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+.classes {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+.class-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-left: 5px solid #E76F51;
+}
+.class-card a {
+  color: #2A9D8F;
+  text-decoration: none;
+}
+.sidebar {
+  flex: 1;
+  background-color: #FFF3E0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.sidebar li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.testimonials {
+  background-color: #2A9D8F;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+.testimonial {
+  margin: 0.5rem 0;
+  font-style: italic;
+}

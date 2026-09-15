@@ -1,6 +1,6 @@
-<div class="hero">
-  <img src="https://placehold.co/1200x400/FFF3E0/333?text=Moni+smiling+with+a taco" alt="Moni teaching">
+<div class="hero" [style.backgroundImage]="'url(' + images[currentIndex()] + ')'">
   <div class="hero-text">
+    <p class="country-name">{{ countries[currentIndex()] }}</p>
     <h1>Learn Spanish the fun way</h1>
     <button>Start exploring →</button>
   </div>
@@ -52,6 +52,6 @@
 </div>
 
 <div class="testimonials">
-  <div class="testimonial">⭐⭐⭐⭐⭐ " Moni makes Spanish fun!" – Emily, 10th grade</div>
+  <div class="testimonial">⭐⭐⭐⭐⭐ "Señora Moni makes Spanish fun!" – Emily, 10th grade</div>
   <div class="testimonial">⭐⭐⭐⭐⭐ "Best Spanish teacher I've ever had" – Jake, 11th</div>
 </div>
